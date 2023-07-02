@@ -21,7 +21,7 @@
       font-size: 18px;
       max-width: 352px;
 
-      display: grid;
+      display: flex;
 
   }
 }
@@ -30,5 +30,6 @@
   .place__paragraphs {
       max-width: 288px;
       padding-left: 16px;
+      padding-top: 32px;
   }
 }

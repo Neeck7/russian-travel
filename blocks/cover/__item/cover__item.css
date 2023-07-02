@@ -1,6 +1,6 @@
 .cover__item {
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   z-index: 1;
@@ -46,7 +46,9 @@
   .cover__item {
     max-width: 768px;
     min-height: 480px;
-    padding-top: 92px;
+
+    object-fit: contain;
+    object-position: center;
   }
 }
 
@@ -54,6 +56,6 @@
   .cover__item {
     max-width: 320px;
     min-height: 200px;
-    padding-top: 66px;
+
   }
 }

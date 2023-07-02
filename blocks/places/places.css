@@ -1,8 +1,9 @@
 .places {
-  padding: 92px 0% 0% 48px;
+  padding: 92px 0% 0%;
   color: #FFF;
   box-sizing: content-box;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
   gap: 80px;
@@ -19,7 +20,7 @@
 @media screen and (max-width:1023px) {
   .places {
     max-width: 720px;
-    padding: 88px 0% 0% 24px;
+    padding: 88px 0% 0%;
     gap: 73px;
   }
 }
