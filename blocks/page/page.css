@@ -1,0 +1,10 @@
+.page {
+  background: #2A2C2F;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
+  font-family: 'Inter', sans-serif;
+  min-width: 320px;
+}
