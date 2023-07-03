@@ -18,20 +18,16 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  opacity: 0.2;
+  opacity: 0.3;
   background: #2A2C2F;
   transition-property: all;
   transition: 2.0s;
-  background-size: cover;
   top: 0;
   left: 0;
-  border-style: none;
 }
 
 .cover__item:hover::before {
   opacity: 0.8;
-  transition: 2s;
-  border-style: none;
 }
 
 @media screen and (max-width:1279px) {
@@ -46,9 +42,6 @@
   .cover__item {
     max-width: 768px;
     min-height: 480px;
-
-    object-fit: contain;
-    object-position: center;
   }
 }
 

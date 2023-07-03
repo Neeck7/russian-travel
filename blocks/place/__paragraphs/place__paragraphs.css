@@ -20,9 +20,6 @@
   .place__paragraphs {
       font-size: 18px;
       max-width: 352px;
-
-      display: flex;
-
   }
 }
 
